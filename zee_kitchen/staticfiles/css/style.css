@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header1 {
+  text-align: center;
+  background-color: rgb(3, 35, 121);
+  height: 7vw;
+}
+
+.myheader {
+  color: aliceblue;
+  font-size: 3.5vw;
+  font-family: Goudy Stout;
+  padding: 1vw 1vw;
+}
+.mytitle {
+  font-size: 50px;
+  color: blue;
+}
+
+.resto-1 {
+  color: rgb(3, 35, 121);
+  width: 4vw;
+}
+.myline {
+  margin-top: 0vw;
+  border-top: 0.5vw solid rgb(3, 35, 121);
+}
+
+.mynav {
+  margin-top: 0.1vw;
+  position: fixed;
+}
+
+.mymenu {
+  margin-left: 5vw;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+li {
+  margin-left: 2vw;
+}
+
+.eventSpecial1 {
+  background-color: rgb(247, 231, 13);
+  text-align: center;
+}
+
+.eventSpecial2 {
+  background-color: rgb(247, 231, 13);
+  text-align: center;
+  width: 10vw;
+  margin-left: -1.2vw;
+}
+
+.orderText {
+  margin-top: 5vw;
+  font-size: 3.5vw;
+  font-family: Cooper;
+  text-align: center;
+}
+
+.orderText1 {
+  margin-top: 5vw;
+  font-size: 3.5vw;
+  font-family: Cooper;
+  text-align: center;
+}
+
+.enjoyText {
+  color: rgb(165, 6, 6);
+  font-size: 1.3vw;
+  font-weight: bold;
+  font-family: Gill Sans MT;
+  display: block;
+  text-align: center;
+}
+
+.enjoyText1 {
+  color: rgb(165, 6, 6);
+  font-size: 1.3vw;
+  font-weight: bold;
+  font-family: Gill Sans MT;
+  display: block;
+  text-align: center;
+}
+
+.para1 {
+  font-weight: 500;
+  text-align: center;
+}
+
+.para2 {
+  font-weight: 500;
+  text-align: center;
+}
+
+.bntOrder {
+  background-color: rgb(3, 35, 121);
+  font-weight: bold;
+  color: white;
+  padding: 0.5vw 0.5vw;
+  margin-bottom: 2vw;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2vw;
+  height: 4vw;
+  position: flex;
+}
+
+.bntOrder:hover {
+  background-color: rgb(241, 7, 7);
+  color: rgb(236, 236, 241);
+}
+
+.bntOrder1 {
+  background-color: rgb(233, 72, 8);
+  font-weight: bold;
+  color: white;
+  padding: 0.5vw 0.5vw;
+  margin-bottom: 2vw;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2vw;
+  height: 4vw;
+  position: flex;
+}
+
+.bntOrder1:hover {
+  background-color: rgb(16, 2, 66);
+  color: rgb(236, 236, 241);
+}
+
+.image1 {
+  width: 100%;
+  height: 28vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1 {
+  background-color: blanchedalmond;
+  border: 0.1vw solid rgb(3, 35, 121);
+  padding: 1vw 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 12vw;
+}
+
+.section2 {
+  background-color: aquamarine;
+  margin-top: 1vw;
+  border: 0.1vw solid rgb(3, 35, 121);
+  padding: 1vw 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.orderBtn {
+  text-align: center;
+}
+
+.section3 {
+  background-color: rgb(231, 228, 29);
+  border: 0.1vw solid rgb(3, 35, 121);
+  padding: 1vw 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+}
+
+.bntOrder2 {
+  background-color: rgb(2, 77, 112);
+  font-weight: bold;
+  color: white;
+  padding: 0.5vw 0.5vw;
+  margin-bottom: 2vw;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2vw;
+  height: 4vw;
+  position: flex;
+}
+
+.bntOrder2:hover {
+  background-color: rgb(2, 61, 15);
+  color: rgb(236, 236, 241);
+}
+
+.w-100 {
+  height: 25vw;
+  margin-top: 1vw;
+}
+
+.dishName {
+  font-weight: bold;
+  font-family: Goudy Stout;
+}
+
+.section4 {
+  background-color: rgb(19, 19, 44);
+  border: 0.1vw solid rgb(3, 35, 121);
+  padding: 1vw 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+.footerDiv {
+  color: white;
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 10vw;
+}
+
+.footerDiv1 {
+  color: white;
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 10vw;
+}
+
+.menuPage {
+  background-color: antiquewhite;
+  width: 100%;
+  margin-top: 12vw;
+  height: fit-content;
+  margin-bottom: 2vw;
+}
+
+.mainMenu {
+  margin-top: 1vw;
+  text-align: center;
+  color: mustard;
+  font-size: bold;
+  font-family: Showcard Gothic;
+  font-size: 4vw;
+}
+
+.menuHeader {
+  margin: auto;
+}
+
+.textMenu {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1vw 1vw;
+  font-size: 2vw;
+  margin-top: 4vw;
+  height: 3vw;
+}
+
+.textBreakfast {
+  text-align: center;
+  margin-top: 3vw;
+  font-size: 2.5vw;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: bisque;
+}
+
+.locationHeader {
+  margin-top: 12vw;
+  background-color: red;
+}
+.textLocation {
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, serif;
+}
+
+.mymap {
+  margin-top: 0.5vw;
+  text-decoration: none;
+  overflow: hidden;
+  max-width: 100%;
+  width: 75vw;
+  height: 28vw;
+}
+
+.orderHeader {
+  text-align: center;
+}
+
+.btnOrder1 {
+  background-color: rgb(4, 68, 47);
+  color: black;
+  height: 5vw;
+  width: 5vw;
+}
+
+.line {
+  border-top: 0.3vw solid orange;
+}
+
+.searchText {
+  border: 0.2vw solid rgb(2, 2, 110);
+  border-radius: 3vw;
+  padding: 0.5vw 0.5vw;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.orderPage {
+  background-color: rgb(12, 0, 0);
+  margin-top: -0.5vw;
+}
+
+.btnChoose {
+  margin-top: 4vw;
+  width: 100%;
+}
+
+.btnOption {
+  width: 50%;
+}
+
+.breakfastOption {
+  margin-top: 2vw;
+  border: 1vw solid rgb(235, 12, 12);
+}
+
+.newHeader {
+  margin-top: 10vw;
+  font-weight: bold;
+  color: blue;
+}
